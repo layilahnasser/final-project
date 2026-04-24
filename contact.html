@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Layilah Nasser | Contact Me</title>
+  <meta name="description" content="Contact Layilah Nasser pageant consulting.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Cormorant+Garamond:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+    <header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html">
+      <img src="images/lnpc.png" alt="Layilah Nasser Pageant Consulting logo" class="logo">
+    </a>
+
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+      </button>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Me</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="halloffame.html">Hall of Fame</a></li>
+          <li><a href="testimonials.html">Testimonials</a></li>
+          <li><a href="contact.html" aria-current="page">Contact Me</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <section class="inner">
+      <p>Contact Me</p>
+
+      <h1>Ready to start your preparation? Let's connect.</h1>
+      <p class="lead">Whether you are looking for interview coaching, stage presence work, or a full competition prep package, I would love to hear from you. Fill out the form below or reach out directly and I will get back to you within 48 hours.</p>
+    </section>
+
+    <section class="inner simple-grid">
+      <form id="contact-form" class="card" action="https://formspree.io/f/mbdzwzbn" method="POST">
+        <h2>Send an inquiry</h2>
+        <img src="images/headshot.jpg" alt="Layilah Nasser headshot">
+        <p>
+          <label for="name">Name</label>
+          <input id="name" name="name"  autocomplete="name" required>
+        </p>
+        <p>
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" autocomplete="email" required>
+        </p>
+        <p>
+          <label for="service">Service of interest</label>
+          <input id="service" name="service" type="text" autocomplete="coaching" placeholder="Interview coaching, walk coaching, package inquiry">
+        </p>
+        <p>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" autocomplete="I have a question about..." placeholder="Tell me a little about yourself, your pageant system, and what you are looking to work on."></textarea>
+        </p>
+        <button class="button" type="submit">Submit Inquiry</button>
+        <p class="form-note" id="form-message" aria-live="polite"></p>
+      </form>
+
+      <aside class="card">
+        <h2>Get in touch</h2>
+        <p>I work with contestants across all systems and divisions. Sessions are available virtually and in person depending on location and availability.</p>
+        <p><strong>Email</strong><br>
+        <a href="mailto:hello@layilahnasser.com">hello@layilahnasser.com</a></p>
+
+        <p><strong>Book a consultation</strong><br>
+        <a href="https://calendly.com/lnpageantconsulting" target="_blank">calendly.com/lnpageantconsulting</a></p>
+
+        <p><strong>Instagram</strong><br>
+        <a href="https://www.instagram.com/lnpageantconsulting/" target="_blank">@lnpageantconsulting</a></p>
+
+        <p><strong>Location</strong><br>
+        Detroit, Michigan<br>
+        Virtual sessions available nationwide</p>
+
+        <p><strong>Response time</strong><br>
+        I typically respond within 48 hours.</p>
+      </aside>
+    </section>
+
+  </main>
+
+   <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="footer-name">Layilah Nasser</p>
+      <p class="footer-tagline">Luxury pageant coaching rooted in strategy, confidence, and results-driven preparation.</p>
+      <span class="footer-status">Currently accepting new clients</span>
+      <p>Detroit, Michigan<br>
+      (555) 000-0000<br>
+      hello@layilahnasser.com</p>
+      </div>
+    </div>
+    <p class="footer-copy">© <span id="year"></span> Layilah Nasser. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
